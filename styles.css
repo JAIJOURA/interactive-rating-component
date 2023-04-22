@@ -1,0 +1,118 @@
+ *{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+ }
+ .attribution {
+     font-size: 16px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(25, 97%, 53%);
+ }
+ body{
+    background-color: black;
+ }
+ main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .container{
+    width:100%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 40px;
+    background: linear-gradient(hsl(213, 19%, 18%),hsla(216, 12%, 8%));
+ }
+ .star-img{
+    width: 50px;
+    height: 50px;
+    background:hsl(213, 19%, 18%);
+    border-radius: 50%;
+text-align: center;
+
+
+ }
+ .star-img img{
+ margin-top: 16.66px;
+ margin-left: 2px;
+ }
+ .container h2{
+    color:white;
+ }
+ .container p{
+    color:hsl(217, 12%, 63%);
+    line-height: 1.6;
+    font-size: 15px;
+ }
+ .container .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+ .container .btn button{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+ }
+ .gray{color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+
+ }
+.active {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+ .container .btn button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+ }
+
+ 
+
+ .container .submit{
+    width: 100%;
+    height: 50px;
+    color:white;
+    border-radius: 50px;
+    margin-top:25px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+ }
+ .container .submit:active{
+    background-color: white;
+    color :hsl(25, 97%, 53%);
+ }
+
+ /* thank you page */
+ .thank-you{
+    text-align: center;
+ }
+ 
+ .selected-para{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 15px;
+    color:hsl(25, 97%, 53%);
+    border-radius: 50px;
+    background-color: hsl(213, 19%, 18%);
+    font-size: 15px;
+ }
+ .center-heading{
+    margin: 30px auto 15px auto;
+ }
+
+ footer{
+    margin-top: 100px;
+    color:white;
+    
+ }
+
